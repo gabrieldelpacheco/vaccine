@@ -1,0 +1,170 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "gabriel.del.pacheco@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "email": "adriana.del.pacheco@gmail.com",
+      "password": "@Gopd4m02",
+      "id": 5
+    },
+    {
+      "email": "gabriel.del.pacheco@outlook.com",
+      "password": "12345678",
+      "id": 6
+    }
+  ],
+  "pacientes": [
+    {
+      "nome": "Gabriel",
+      "genero": "m",
+      "nasc": "1987-06-25",
+      "cpf": "057.860.659-36",
+      "rg": "4882927",
+      "estadoCivil": "S",
+      "tel": "48996981402",
+      "email": "gabriel.del.pacheco@gmail.com",
+      "natural": "nenhum",
+      "emergencia": "adriana",
+      "alergias": "nada",
+      "NCart": "8452519682",
+      "validade": "2026-07-31",
+      "cep": "88132-801",
+      "cidade": "Palhoça",
+      "uf": "SC",
+      "logradouro": "rua gamboa",
+      "numRua": "14",
+      "compl": "casa 02",
+      "bairro": "Bela Vista",
+      "refEnd": "cantinho da adri",
+      "id": 22
+    },
+    {
+      "nome": "Leda",
+      "genero": "f",
+      "nasc": "1987-06-25",
+      "cpf": "123.123.123.36",
+      "rg": "4882927",
+      "estadoCivil": "d",
+      "tel": "48999684521",
+      "email": "ausgf@gmail.com",
+      "emergencia": "adriana",
+      "alergias": "drogas",
+      "cep": "88132-801",
+      "cidade": "Palhoça",
+      "uf": "SC",
+      "logradouro": "rua gamboa",
+      "numRua": "14",
+      "compl": "casa 03",
+      "bairro": "Bela Vista",
+      "refEnd": "cantinho da adri",
+      "id": 23
+    },
+    {
+      "nome": "Adriana",
+      "genero": "f",
+      "nasc": "1980-12-14",
+      "cpf": "00770176925",
+      "rg": "4882927",
+      "estadoCivil": "d",
+      "tel": "48999863479",
+      "email": "adriana.del.pacheco@gmail.com",
+      "emergencia": "Gabriel",
+      "alergias": "sim",
+      "cep": "88132-801",
+      "cidade": "Palhoça",
+      "uf": "SC",
+      "logradouro": "rua gamboa",
+      "numRua": "14",
+      "compl": "casa 02",
+      "bairro": "Bela Vista",
+      "refEnd": "cantinho da adri",
+      "id": 24
+    },
+    {
+      "nome": "Robert",
+      "genero": "m",
+      "nasc": "1980-06-25",
+      "cpf": "221.197.609-34",
+      "rg": "4882927",
+      "estadoCivil": "S",
+      "tel": "48999685412",
+      "email": "administrador@veggyfood.com",
+      "emergencia": "adriana",
+      "alergias": "nada",
+      "cep": "88132-801",
+      "cidade": "Palhoça",
+      "uf": "SC",
+      "logradouro": "rua gamboa",
+      "numRua": "14",
+      "compl": "casa 02",
+      "bairro": "Bela Vista",
+      "refEnd": "cantinho da adri",
+      "id": 25
+    }
+  ],
+  "vacinas": [
+    {
+      "nomeVacina": "Raiva",
+      "nomeLaboratorio": "Unesco",
+      "dataAplicacao": "2023-09-18",
+      "horaAplicacao": "17:29",
+      "quantidadeAplicacao": "30",
+      "observacao": "Mordido por um cachorro.",
+      "pacienteId": 22,
+      "id": 10
+    },
+    {
+      "nomeVacina": "dengue",
+      "nomeLaboratorio": "brasil",
+      "dataAplicacao": "2023-02-14",
+      "horaAplicacao": "14:45",
+      "quantidadeAplicacao": "20",
+      "observacao": "mosquito",
+      "pacienteId": 22,
+      "id": 11
+    },
+    {
+      "nomeVacina": "Raiva",
+      "nomeLaboratorio": "Unesco",
+      "dataAplicacao": "2023-01-15",
+      "horaAplicacao": "14:15",
+      "quantidadeAplicacao": "10",
+      "observacao": "piriquito",
+      "pacienteId": 1,
+      "id": 12
+    },
+    {
+      "nomeVacina": "Amalaria",
+      "nomeLaboratorio": "Guedes",
+      "dataAplicacao": "2021-01-25",
+      "horaAplicacao": "10:10",
+      "quantidadeAplicacao": "45",
+      "observacao": "mosquito",
+      "pacienteId": 24,
+      "id": 13
+    },
+    {
+      "nomeVacina": "picada",
+      "nomeLaboratorio": "Unesco",
+      "dataAplicacao": "2023-06-13",
+      "horaAplicacao": "15:15",
+      "quantidadeAplicacao": "20",
+      "observacao": "picado por aranha",
+      "pacienteId": 25,
+      "id": 14
+    },
+    {
+      "nomeVacina": "dengue",
+      "nomeLaboratorio": "brasil",
+      "dataAplicacao": "2021-05-23",
+      "horaAplicacao": "16:15",
+      "quantidadeAplicacao": "30",
+      "observacao": "mosquito",
+      "pacienteId": 25,
+      "id": 15
+    }
+  ]
+}
